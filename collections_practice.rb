@@ -8,4 +8,5 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-arr = arr.sort_by(&:length)
+arr = array.sort_by(&:length)
+end
