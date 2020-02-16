@@ -25,8 +25,7 @@ end
 
 def kesha_maker(array)
   
-  array.each do |element|
-    element.split.sub(2, "$").join
+array.each do |item|
+    item[2] = "$"
   end
-  
 end
