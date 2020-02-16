@@ -9,7 +9,7 @@ end
 
 def sort_array_char_count(array)
   
-rray.sort do |a, b|
+array.sort do |a, b|
   if a == b
     0
   elsif a < b
