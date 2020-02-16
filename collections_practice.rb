@@ -13,7 +13,7 @@ end
 
 def swap_elements(array)
   
-  array.sort
+ array.sort_by(&:length)
   
 end
 
